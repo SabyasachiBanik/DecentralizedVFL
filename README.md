@@ -18,12 +18,12 @@ With the rapid growth of data generated from IoT devices, Artificial Intelligenc
 ### Prototype 2: Enhanced VFL Setup with Hidden Layer Output Sharing
 - **Hidden Layer Output Sharing:** In addition to gradients, participants share the outputs of their hidden layers. This additional sharing improves the learning process by providing more comprehensive intermediate representations.
 
-<img width="561" alt="Fig 7i" src="https://github.com/user-attachments/assets/aaffa722-849e-43b7-b607-b5310cfa2fd1">
+<img width="461" alt="Fig 7i" src="https://github.com/user-attachments/assets/aaffa722-849e-43b7-b607-b5310cfa2fd1">
 
 ### Prototype 3: Advanced VFL with Hidden Layer Output and Backpropagation Loss Sharing
 - **Backpropagation Loss Sharing:** Building upon Prototype 2, this version includes the sharing of backpropagation losses. This further aligns participants in their understanding of the loss landscape during training.
-- 
-<img width="541" alt="Fig 7ii" src="https://github.com/user-attachments/assets/5080cff7-1fc5-4e2e-bd20-43a488499a85">
+
+<img width="441" alt="Fig 7ii" src="https://github.com/user-attachments/assets/5080cff7-1fc5-4e2e-bd20-43a488499a85">
 
 
 ## Evaluation
@@ -38,5 +38,24 @@ To reproduce the experiments, the insatllation of the packages declared in the f
 ### Running the Code
 1. **Clone the Repository:**
    
-   git clone https://github.com/yourusername/yourrepository.git
-   cd yourrepository
+   git clone https://github.com/SabyasachiBanik/DecentralizedVFL.git
+   cd your_decentralized_vfl
+
+2. **Create a Python Virtual Environment:**
+
+   python3 -m venv venv
+   source venv/bin/activate
+
+
+3. ***Install the Required Packages:***
+
+    pip install -r requirements.txt
+
+4. **Run the Experiments:**
+    Each dataset folder contains the necessary code to run the experiments. Navigate to the appropriate folder and execute 
+    the scripts as needed. Please ensure that the required datasets are available in the correct format as indicated in the 
+    code. 
+
+### Conclusion
+
+This project demonstrates the potential of decentralized Vertical Federated Learning (VFL) in handling distributed data across multiple participants. This approach excels in collaborative learning in distributed environments by eliminating the need for a central server and introducing ideal federated mechanisms for sharing intermediate model updates. The results achieved across various datasets highlight the versatility and effectiveness of the VFL prototypes, laying a strong foundation for future research and development in this area.
