@@ -10,17 +10,20 @@ With the rapid growth of data generated from IoT devices, Artificial Intelligenc
 ### Prototype 1: Initial VFL Setup Architecture
 - **Data Distribution Methodology:** Features are distributed among participants using a round-robin method, ensuring a balanced and diverse distribution.
 
-  <img width="555" alt="image" src="https://github.com/user-attachments/assets/ecf33542-b54c-4930-9015-e123b0e6e411">
-
 - **Global Model Architecture:** A shared global model architecture is agreed upon by all participants. Each participant trains their local model, shares gradients, and aggregates them in a decentralized manner.
 - **Key Feature:** Zero-padding is used to handle missing features during training, ensuring that all participants contribute to the overall model.
 
+
+ 
 ### Prototype 2: Enhanced VFL Setup with Hidden Layer Output Sharing
 - **Hidden Layer Output Sharing:** In addition to gradients, participants share the outputs of their hidden layers. This additional sharing improves the learning process by providing more comprehensive intermediate representations.
 
+<img width="361" alt="Fig 7i" src="https://github.com/user-attachments/assets/aaffa722-849e-43b7-b607-b5310cfa2fd1">
 
 ### Prototype 3: Advanced VFL with Hidden Layer Output and Backpropagation Loss Sharing
 - **Backpropagation Loss Sharing:** Building upon Prototype 2, this version includes the sharing of backpropagation losses. This further aligns participants in their understanding of the loss landscape during training.
+- 
+<img width="341" alt="Fig 7ii" src="https://github.com/user-attachments/assets/5080cff7-1fc5-4e2e-bd20-43a488499a85">
 
 
 ## Evaluation
