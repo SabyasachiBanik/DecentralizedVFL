@@ -30,7 +30,7 @@ The performance of the prototypes was evaluated on several datasets including MN
 ## How to Reproduce the Experiments
 
 ### Requirements
-To reproduce the experiments, the insatllation of the packages declared in the file requirements.txt needs to be ensured.
+To reproduce the experiments, the insatllation of the packages declared in the file [requirements.txt](https://github.com/SabyasachiBanik/DecentralizedVFL/blob/main/requirements.txt) needs to be ensured.
 
 ### Running the Code
 1. **Clone the Repository:**
