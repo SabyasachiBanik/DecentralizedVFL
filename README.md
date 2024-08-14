@@ -18,12 +18,12 @@ With the rapid growth of data generated from IoT devices, Artificial Intelligenc
 ### Prototype 2: Enhanced VFL Setup with Hidden Layer Output Sharing
 - **Hidden Layer Output Sharing:** In addition to gradients, participants share the outputs of their hidden layers. This additional sharing improves the learning process by providing more comprehensive intermediate representations.
 
-<img width="361" alt="Fig 7i" src="https://github.com/user-attachments/assets/aaffa722-849e-43b7-b607-b5310cfa2fd1">
+<img width="561" alt="Fig 7i" src="https://github.com/user-attachments/assets/aaffa722-849e-43b7-b607-b5310cfa2fd1">
 
 ### Prototype 3: Advanced VFL with Hidden Layer Output and Backpropagation Loss Sharing
 - **Backpropagation Loss Sharing:** Building upon Prototype 2, this version includes the sharing of backpropagation losses. This further aligns participants in their understanding of the loss landscape during training.
 - 
-<img width="341" alt="Fig 7ii" src="https://github.com/user-attachments/assets/5080cff7-1fc5-4e2e-bd20-43a488499a85">
+<img width="541" alt="Fig 7ii" src="https://github.com/user-attachments/assets/5080cff7-1fc5-4e2e-bd20-43a488499a85">
 
 
 ## Evaluation
