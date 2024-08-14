@@ -39,19 +39,20 @@ To reproduce the experiments, the insatllation of the packages declared in the f
 1. **Clone the Repository:**
    
    git clone https://github.com/SabyasachiBanik/DecentralizedVFL.git
+   
    cd your_decentralized_vfl
 
-2. **Create a Python Virtual Environment:**
+3. **Create a Python Virtual Environment:**
 
    python3 -m venv venv
    source venv/bin/activate
 
 
-3. ***Install the Required Packages:***
+4. **Install the Required Packages:**
 
     pip install -r requirements.txt
 
-4. **Run the Experiments:**
+5. **Run the Experiments:**
     Each dataset folder contains the necessary code to run the experiments. Navigate to the appropriate folder and execute 
     the scripts as needed. Please ensure that the required datasets are available in the correct format as indicated in the 
     code. 
