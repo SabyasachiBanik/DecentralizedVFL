@@ -13,6 +13,7 @@ With the rapid growth of data generated from IoT devices, Artificial Intelligenc
 - **Global Model Architecture:** A shared global model architecture is agreed upon by all participants. Each participant trains their local model, shares gradients, and aggregates them in a decentralized manner.
 - **Key Feature:** Zero-padding is used to handle missing features during training, ensuring that all participants contribute to the overall model.
 
+<img width="495" alt="Fig 6ii" src="https://github.com/user-attachments/assets/e9f2b141-dfa1-4eb5-9d05-abd5823ff42e">
 
  
 ### Prototype 2: Enhanced VFL Setup with Hidden Layer Output Sharing
